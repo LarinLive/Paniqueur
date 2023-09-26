@@ -1,4 +1,6 @@
-# What is the Paniqueur?
+# The Paniqueur repository
+
+## What is the Paniqueur?
 
 It is one more software for monitoring IT infrastructure. It is written on .NET.
 
