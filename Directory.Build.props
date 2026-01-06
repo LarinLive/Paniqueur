@@ -1,7 +1,7 @@
 <Project>
 	<!-- Compiler settings -->
 	<PropertyGroup>
-		<LangVersion>13.0</LangVersion>
+		<LangVersion>14.0</LangVersion>
 		<ImplicitUsings>disable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<Deterministic>true</Deterministic>
@@ -15,9 +15,9 @@
 		<RootNamespace>$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
 		<Authors>Anton Larin</Authors>
 		<Company>Anton Larin</Company>
-		<Product>SevenToOne</Product>
-		<Title>SevenToOne</Title>
-		<Copyright>Copyright (c) Anton Larin, 2024-2025. All rights reserved.</Copyright>
+		<Product>Paniqueur</Product>
+		<Title>Paniqueur</Title>
+		<Copyright>Copyright (c) Anton Larin, 2024-2026. All rights reserved.</Copyright>
 		<NeutralLanguage>en</NeutralLanguage>
 	</PropertyGroup>
 
@@ -31,7 +31,7 @@
 	<ItemGroup>
 		<PackageReference
 			Include="Nerdbank.GitVersioning"
-			Version="3.7.112"
+			Version="3.9.50"
 			PrivateAssets="all"
 			Condition="!Exists('packages.config')" />
 	</ItemGroup>
